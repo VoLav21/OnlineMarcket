@@ -89,7 +89,7 @@ header {
 .Main-section {
     min-width: 1024px;
     height: 754px;
-    background: url(/IMG/background.png) no-repeat center / cover;
+    background: url("../IMG/background.png") no-repeat center / cover;
 }
 .div-txt {
     color: #fff;
