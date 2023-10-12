@@ -17,14 +17,15 @@ header {
     background-color: #fff;
     width: auto;
 }
-.heading-Sections{   /* Заголовки секций кроме main */
+.heading-Sections{   /* Заголовки секций*/
     font-size: 34px;
 }
 
                                                                    /* Первая шапка */
+
 .header-section1{
     font-size: 16;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);   /* Тень блока */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     height: 62px;
     display:  flex;
     align-items: center;
@@ -52,6 +53,7 @@ header {
 }
 
                                                                    /* Вторая шапка */
+
 .header-section2{
     font-size: 16;
     height: 62px;
@@ -119,16 +121,15 @@ header {
     cursor: pointer;
 }
 
-
                                                                     /* Преимущества */
+
 .Section-Advantages{
     margin: 0 auto;
     padding: 0;
 }
 .nav-adv{
-    padding-top: 95px;
+    margin-top: 95px;
 }
-
 .navigator{
     margin-left: auto;
 }
@@ -140,21 +141,15 @@ header {
     background-color: #eeeeee;
     cursor: pointer;
 }
-.ul-avd {
+.div-adv {
+    margin-top: 30px;
     display: flex;
     align-items: center;
 }
 .column {
-    list-style-type: none;
-    margin-right: 143px;
-    margin-top: 104px;
+    margin: auto;
     font-weight: lighter;
-}
-.column1 {
-    list-style-type: none;
-    font-weight: lighter;
-    
-    margin-right: auto;
+    flex-direction:column;
 }
 .block {
     font-size: 20px;
@@ -169,7 +164,8 @@ header {
 
 .Section-AboutUs{
     margin-top: 172px;
-}                                                                    .pharagraph-AbU{
+}                                                                    
+.pharagraph-AbU{
     margin-top: 30px;
     font-size: 20px;
 }
@@ -219,7 +215,8 @@ input::placeholder {
 }
 
 
-                                                                    /* СЕКЦИЯ  */
+                                                                    /* СЕКЦИЯ  Особенности*/
+
 .Section-Features {
     padding-top: 68px;
     margin-top: 0;
@@ -247,7 +244,8 @@ input::placeholder {
     padding-bottom: 70px;
 }
 
-                                                                    /* СЕКЦИЯ  */
+                                                                    /* СЕКЦИЯ  КАТАЛОГ*/
+
 .Section-Catalog{
     background-color: #fbfbfb;
 }
@@ -281,7 +279,6 @@ input::placeholder {
 }
 .filter-all:hover {
     cursor: pointer;
-    font-weight: 500;
 }
 .Blocks-catalog{
     display: flex;
@@ -295,5 +292,68 @@ input::placeholder {
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-left: 30px;
+    color: #000;
+    
+}
+.block-c:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.category-c{
+    max-width: 144px;
+    margin-top: 23px;
+    position:relative;
+    z-index: 10;
+}
+.text-category-c{
+    background-color: #FFA019;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    padding: 4px 15px 4px 15px;
+    color:#fff;
+    font-weight: 600;
+}
+.block-img-tovar{
+    width: 200px;
+    height: 208px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-c{
+    font-size: 16px;
+    margin-top: 0;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.block-c-text{
+    margin-left: 13px;
+    width: 182px;
 }
 
+                                                                    /* СЕКЦИЯ  КОНСУЛЬТАНТЫ*/
+
+.Section-Consultants {
+    width: auto;
+}
+
+                                                                    /* СЕКЦИЯ  БРЕНДЫ*/
+
+.Brands {
+    width: auto;
+}
+
+                                                                    /* СЕКЦИЯ  ИНФОРМАЦИЯ*/
+
+.Section-Information {
+    width: auto;
+}
+
+                                                                    /*ПОДВАЛ*/
+.Basement{
+    width: auto;
+}
