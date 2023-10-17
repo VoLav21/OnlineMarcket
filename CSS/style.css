@@ -339,6 +339,52 @@ input::placeholder {
 
 .Section-Consultants {
     width: auto;
+    margin-top: 120px;
+}
+.Consultants{
+    display: flex;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.card-1 {
+    width: 383px;
+    height: 202px;
+    background-color: #FBFBFB;
+    margin-top: 66px;
+    display: flex;
+}
+.card {
+    width: 384px;
+    height: 202px;
+    background-color: #FBFBFB;
+    margin-left: 33px;
+    margin-top: 66px;
+    display: flex;
+}
+.name{
+    margin-top: 31px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.manager{
+    margin-top: 0;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.write{
+    margin-left: 10px;
+    background-color: #FFA019;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    width: 92px;
+    height: 34px;
+    font-size: 10px;
+    font-weight: 700;
 }
 
                                                                     /* СЕКЦИЯ  БРЕНДЫ*/
@@ -346,11 +392,73 @@ input::placeholder {
 .Brands {
     width: auto;
 }
+.brand{
+    font-family: 'Arimo', sans-serif;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+    background-color: #ececec;
+    padding:100px 0;
+    font-size: 55px;
+    font-weight: 700;
+    justify-content: center;
+}
+.mar{
+    margin-left: 60px;
+}
+.hr{
+    text-decoration: none;
+    color: #9A9A9A;
+    cursor: default;
+}
+.cursor:hover{
+    cursor: pointer;
+    color: #818181;
+}
 
                                                                     /* СЕКЦИЯ  ИНФОРМАЦИЯ*/
 
 .Section-Information {
     width: auto;
+    cursor: default;
+}
+.info-info{
+    display: flex;
+    align-items: center;
+    
+}
+.mar-bot{
+    margin-bottom: 90px;
+}
+.block{
+    width: 263px;
+    height: 263px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block:not(.bg-color1){
+    margin-left: 25px;
+}
+.bg-color1{
+    background-image: url(/IMG/Info/1\ 1.png);
+}
+.bg-color2{
+    background-image: url(/IMG/Info/2\ 1.png);
+}
+.bg-color3{
+    background-image: url(/IMG/Info/3\ 1.png);
+}
+.bg-color4{
+    background-image: url(/IMG/Info/4\ 1.png);
+}
+.info-txt-cursor{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    cursor: default;
 }
 
                                                                     /*ПОДВАЛ*/
