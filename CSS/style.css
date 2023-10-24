@@ -271,11 +271,28 @@ input::placeholder {
     align-items: center;
 }
 .filter {
-    margin-left: 29px;
+    margin-left: 23px;
+    margin-right: 24px;
+}
+.filter-all:hover{
+    cursor: pointer;
+    background-color: #ffbb5c;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color:#fff;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .filter:hover {
     cursor: pointer;
-    font-weight: 500;
+    background-color: #FFA019;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color:#fff;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 .filter-all:hover {
     cursor: pointer;
@@ -390,7 +407,6 @@ input::placeholder {
                                                                     /* СЕКЦИЯ  БРЕНДЫ*/
 
 .Brands {
-    width: auto;
 }
 .brand{
     font-family: 'Arimo', sans-serif;
@@ -432,7 +448,7 @@ input::placeholder {
 .mar-bot{
     margin-bottom: 40px;
 }
-.block{
+.block-bot{
     width: 263px;
     height: 263px;
     cursor: default;
@@ -440,8 +456,12 @@ input::placeholder {
     align-items: center;
     justify-content: center;
 }
-.block:not(.bg-color1){
+.block-bot:not(.bg-color1){
     margin-left: 25px;
+}
+.block-bot:hover{
+    cursor:pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .bg-color1{
     background-image: url(/IMG/Info/1\ 1.png);
@@ -501,6 +521,9 @@ input::placeholder {
     padding: 0;
     text-decoration: none;
 }
+.bas-list:hover{
+    color: #58779d;
+}
 .txt-bas:not(.bas-color-txt){
     display: flex;
     align-items: center;
@@ -510,4 +533,62 @@ input::placeholder {
 }
 .bas-column{
     margin-left: 30px;
+}
+@media (max-width: 2000px){ /*Настроить*/
+    .container {
+        width: 1119px;
+    }
+    .header-section1{
+        min-width: 100%;
+    }
+    .header-section2{
+        min-width: 100%;
+    }
+    .brand{
+        font-size: 45px;
+    }
+    .mar{
+        margin-left: 30px;
+    }
+}
+@media(max-width: 1200px)  /*Настроить*/
+{
+    .container{
+        width: 1090px;
+    }
+    .header-section1{
+        min-width: 100%;
+    }
+    .header-section2{
+        min-width: 100%;
+    }
+}
+@media(max-width: 1024px)
+{
+    .container{
+        width: 915px;
+    }
+    .header-section1{
+        min-width: 100%;
+    }
+    .header-section2{
+        min-width: 100%;
+    }
+    .My-Giro{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .links{
+        margin-right: 10px;
+    }
+    .link{
+        font-size: 12px;
+    }
+    
+    .brand{
+        font-size: 25px;
+    }
+    .mar{
+        margin-left: 15px;
+    }
 }
