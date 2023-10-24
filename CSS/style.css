@@ -464,16 +464,16 @@ input::placeholder {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .bg-color1{
-    background-image: url(/IMG/Info/1\ 1.png);
+    background-image: url("../IMG/Info/1\ 1.png");
 }
 .bg-color2{
-    background-image: url(/IMG/Info/2\ 1.png);
+    background-image: url("../IMG/Info/2\ 1.png");
 }
 .bg-color3{
-    background-image: url(/IMG/Info/3\ 1.png);
+    background-image: url("../IMG/Info/3\ 1.png");
 }
 .bg-color4{
-    background-image: url(/IMG/Info/4\ 1.png);
+    background-image: url("../IMG/Info/4\ 1.png");
 }
 .info-txt-cursor{
     text-decoration: none;
